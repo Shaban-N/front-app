@@ -10,7 +10,7 @@ export default class App extends Component {
     const { counter, actions } = this.props;
     return (
       <div className="main-app-container">
-        {/*<News />*/}
+        {<News />}
         <Filter />
       </div>
     );

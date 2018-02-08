@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import * as filterActions from '../actions/filterActions';
 
-const category=['business', 'entertainment', 'gaming', 'general', 'music', 'politics', 'science-and-nature', 'sport', 'technology'];
+const category=['business', 'entertainment','general', 'science', 'sports', 'technology'];
 
 const mapStateToProps = (state) => ({
 	categoryFilter: state.filters.categoryFilter
